@@ -1,0 +1,59 @@
+.hablemos__email {
+  display: none;
+  a{
+    color: $color-font1;
+  }
+}
+
+@media (min-width: 992px) {
+  .hablemos {
+    height: 100vh;
+    padding-top: 190px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .hablemos__email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+.hablemos__formulario {
+  padding: 5rem 2rem 5rem 2rem!important;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  #hablemos h3 {
+    font-size: 21px;
+  }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////FUNCTION FORM
+
+.modal-estilo {
+    
+  .modal-header {
+    border-bottom: 0!important;
+    padding: 16px 17px 0 17px;
+  }
+  .modal-title {
+    padding-left: 6rem;
+  }
+  .modal-body {
+    padding-top: 10px!important;
+  }
+  h4 {
+    font-size: $m;
+  }
+  span {
+    color:$color-font1!important;
+  }
+}
+

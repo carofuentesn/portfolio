@@ -1,0 +1,75 @@
+.button_cont {
+  text-align: center;
+  padding: 80px 0 20px 0;
+  font-family: $font-principal;
+}
+
+.button_cont2 {
+  text-align: center;
+  padding: 25px 0 0 0;
+  font-family: $font-principal;
+}
+
+.example_c {
+  height: 50px;
+  width: 200px;
+  color: $color-font1 !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  background: #ffffff;
+  padding: 10px;
+  border: 4px solid $color-font1 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+.example_c:hover {
+  color: #ffffff !important;
+  background: $color-font1;
+  border-color: $color-font1 !important;
+  transition: all 0.4s ease 0s;
+}
+
+
+/////////////////////////////////////////////////////////BOTON al reves
+.example_b {
+  height: 50px;
+  width: 200px;
+  color: $color-font2 !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  background: #000000;
+  padding: 10px;
+  border: 4px solid $color-font2 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+.example_b:hover {
+  color: #000000!important;
+  background: $color-font2;
+  border-color: $color-font2 !important;
+  transition: all 0.4s ease 0s;
+}
+
+
+
+/////////////////////////////////////////////////////////BOTON + PROYECTOS
+.no-button {
+  border: none;
+  background-color: $color-font2;
+
+  i {
+    padding: 18% 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  :hover {
+    color: $color-font2;
+    border-radius: 50px;
+    background-color: $color-font1;
+    transition: 0.4s ease-in 0.1s;
+  }
+}
+

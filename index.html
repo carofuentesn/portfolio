@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--googlefont y fontawesome-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!--Favicon-->
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+  <!--emojis-->
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <!--mi estilo-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Carolina Fuentes Portfolio</title>
+</head>
+
+<body>
+  <!--NAVBAR/////////////////////////////////////////////////////////////////////////////////-->
+  <div id="mainbox" onclick="openFunction()">
+    <div class="hvr-icon-grow"><i id="btn-menu" class="fas fa-bars fa-2x grow-icon"></i></div>
+  </div>
+  <div id="menu" class="sidemenu">
+    <a href="#proyectos" onclick="closeFunction()">PROYECTOS</a>
+    <a href="#sobremi" onclick="closeFunction()">SOBRE MI</a>
+    <a href="#hablemos" onclick="closeFunction()">HABLEMOS</a>
+    <a class="closebtn" onclick="closeFunction()">
+      <div href="" class="hvr-icon-spin"><i id="btn-close" class="fas fa-times hvr-icon"></i></div>
+    </a>
+  </div>
+
+  <!--LOGO///////////////////////////////////////////////////////////////////////////////////-->
+  <div class="fixed-bottom logo">
+    <a href="#header">
+      <h2 class="logo-carolina">C</h2>
+    </a>
+  </div>
+  <!--HEADER/////////////////////////////////////////////////////////////////////////////////-->
+
+  <header id="header" class="container">
+    <div class="header__textos">
+      <i class="em em-wave m-0" aria-role="presentation" aria-label="WAVING HAND SIGN"></i>
+      <h1 class="header__textos-hola scroll-1">HOLA</h1>
+      <h1 id="texto-carolina" class="scroll-2">SOY CAROLINA</h1>
+      <h3 class="scroll-3">DISEÑADORA UX/UI</h3>
+      <a class="scroll-4" href="#sobremi">VER +</a>
+    </div>
+    <div class="icon-down"><a href="#proyectos"><i class="fas fa-angle-down fa-3x"></i></a></div>
+  </header>
+
+
+  <!--PROYECTOS/////////////////////////////////////////////////////////////////////////////////-->
+  <section id="proyectos">
+    <h1 class="container text-center titulo-seccion scroll-1">PROYECTOS</h1>
+
+
+    <!--tabs para Desktop-->
+    <div class="classic-tabs mx-auto tabs__proyectos scroll-5">
+
+      <ul class="nav show container tabs__categorias" id="myClassicTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link waves-light active" id="todos-destacados-tab" data-toggle="tab" href="#todos-destacados"
+            role="tab" aria-controls="todos-destacados" aria-selected="true"> <span
+              class="d-none d-md-block">TODOS</span> <span class="d-block d-md-none">DESTACADOS</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" id="ux-ui-tab" data-toggle="tab" href="#ux-ui" role="tab"
+            aria-controls="ux-ui" aria-selected="false">UX | UI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" id="ilustracion-tab" data-toggle="tab" href="#ilustracion" role="tab"
+            aria-controls="ilustracion" aria-selected="false">WEB</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" id="social-media-tab" data-toggle="tab" href="#social-media" role="tab"
+            aria-controls="social-media" aria-selected="false">SOCIAL MEDIA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" id="otros-tab" data-toggle="tab" href="#otros" role="tab"
+            aria-controls="otros" aria-selected="false">OTROS PROYECTOS</a>
+        </li>
+      </ul>
+
+      <!--contenido de tabs-->
+      <div class="tab-content rounded-bottom" id="myClassicTabContent">
+        <div class="tab-pane fade active show" id="todos-destacados" role="tabpanel"
+          aria-labelledby="todos-destacados-tab">
+          <!--(Tab 1) categoria todos-->
+          <div id="container-mosaico" class="container">
+
+            <div class="row">
+              <div class="col-md-7"> <span class="p-5 d-lg-block">
+                  <div class="mosaico mosaico1 proyecto-1">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">LE HAPPY BLOG</p><a href="">
+                        <div class="linea"></div>
+                        <p class="bajada">UI</p>
+                    </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+
+              <div class="col-md-4"> <span class="p-1 d-lg-block">
+                  <div class="mosaico mosaico3 proyecto-2"> <a href="https://carofuentesn.github.io/Startup-Treek-in/">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">TREKK IN</p>
+                        <div class="linea"></div>
+                        <p class="bajada">WEB</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-4"><span class="p-1 d-lg-block">
+                  <div class="mosaico mosaico3 proyecto-3"><a href="http://fierzchile.com/">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">FIERZ</p>
+                        <div class="linea"></div>
+                        <p class="bajada">WEB</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+
+              <div class="col-md-7"><span class="p-5 d-lg-block">
+                  <div class="mosaico mosaico1 proyecto-4"><a href="../portafolio2/corte-ingles.html">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">VIAJES EL CORTE INGLÉS</p>
+                        <div class="linea"></div>
+                        <p class="bajada">UX</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-7"><span class="p-5 d-lg-block">
+                  <div class="mosaico mosaico1 proyecto-5"><a href="../portafolio2/antartica-web.html">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">LIBRERIA ANTÁRTICA</p>
+                        <div class="linea"></div>
+                        <p class="bajada">UI</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+
+              <div class="col-md-4"><span class="p-1 d-lg-block">
+                  <div class="mosaico mosaico3 proyecto-6"><a href="">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">PAULA IVOVIC SWIMWEAR</p>
+                        <div class="linea"></div>
+                        <p class="bajada">SOCIAL MEDIA + FOTOGRAFÍA</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-4"><span class="p-1 d-lg-block">
+                  <div class="mosaico mosaico3  proyecto-7"><a href="https://carofuentesn.github.io/GIGEO_APP/">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">GIGEO ART</p>
+                        <div class="linea"></div>
+                        <p class="bajada">WEB</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+
+              <div class="col-md-7"><span class="p-5 d-lg-block">
+                  <div class="mosaico mosaico1 proyecto-8"><a href="">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">VOKAGE</p>
+                        <div class="linea"></div>
+                        <p class="bajada">SOCIAL MEDIA</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+            </div>
+
+            <div id="ocultarmostrar" style="display: none;">
+              <div class="row">
+                <div class="col-md-7"><span class="p-5 d-lg-block">
+                    <div class="mosaico mosaico1 proyecto-9"> <a href="">
+                        <div class="info-proyectos">
+                          <p class="titulo-proyecto">DE FÁTIMA</p>
+                          <div class="linea"></div>
+                          <p class="bajada">SOCIAL MEDIA</p>
+                        </div>
+                      </a>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="col-md-4"><span class="p-1 d-lg-block">
+                    <div class="mosaico mosaico3 proyecto-10"><a href="https://carofuentesn.github.io/CUPPON_DESAFIO/">
+                        <div class="info-proyectos">
+                          <p class="titulo-proyecto">CUPPON</p>
+                          <div class="linea"></div>
+                          <p class="bajada">WEB</p>
+                        </div>
+                      </a>
+                    </div>
+                  </span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 p-1">
+                  <div class="mosaico mosaico3 proyecto-11"><a href="">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">ILUSTRACIONES VECTORIALES</p>
+                        <div class="linea"></div>
+                        <p class="bajada">ILUSTRACIÓN</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-md-7 p-5">
+                  <div class="mosaico mosaico1 proyecto-12"><a href="../Portafolio 2.0/impresos.html">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">IMPRESOS 2018-2019</p>
+                        <div class="linea"></div>
+                        <p class="bajada">DISEÑO GRÁFICO</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="showhide" class="text-center"><button class="no-button" onclick="fnc_toggle()"><i
+                class="fas fa-plus fa-2x"></i></button></div>
+        </div>
+        <!---->
+        <div class="tab-pane fade" id="ux-ui" role="tabpanel" aria-labelledby="ux-ui-tab">
+          <div id="container-mosaico" class="container">
+
+            <div class="row">
+              <div class="col-md-7 p-5">
+                <div class="mosaico mosaico1 proyecto-1"><a href="">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">LE HAPPY BLOG</p>
+                      <div class="linea"></div>
+                      <p class="bajada">UI</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-4 p-1">
+                <div class="mosaico mosaico3 proyecto-5"><a href="../Portafolio 2.0/antartica-web.html">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">LIBRERIA ANTÁRTICA</p>
+                      <div class="linea"></div>
+                      <p class="bajada">UI</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-1 invisible"></div>
+              <div class="col-md-4 invisible"><span class="p-1 d-lg-block">
+                  <div class="mosaico mosaico3 proyecto-3"><a href="http://fierzchile.com/">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">FIERZ</p>
+                        <div class="linea"></div>
+                        <p class="bajada">WEB</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+
+              <div class="col-md-7"><span class="p-5 d-lg-block">
+                  <div class="mosaico mosaico1 proyecto-4"><a href="../portafolio2/corte-ingles.html">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">VIAJES EL CORTE INGLÉS</p>
+                        <div class="linea"></div>
+                        <p class="bajada">UX</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="social-media" role="tabpanel" aria-labelledby="social-media-tab">
+          <div id="container-mosaico" class="container">
+            <div class="row">
+              <div class="col-md-7 p-5">
+                <div class="mosaico mosaico1 proyecto-8"> <a href="">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">VOKAGE</p>
+                      <div class="linea"></div>
+                      <p class="bajada">SOCIAL MEDIA</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 p-1">
+                <div class="mosaico mosaico3 proyecto-6"><a href="">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">PAULA IVOVIC SWIMWEAR</p>
+                      <div class="linea"></div>
+                      <p class="bajada">SOCIAL MEDIA + FOTOGRAFÍA</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-md-7 p-5">
+                <div class="mosaico mosaico3 proyecto-9"><a href="">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">DE FÁTIMA</p>
+                      <div class="linea"></div>
+                      <p class="bajada">SOCIAL MEDIA</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="ilustracion" role="tabpanel" aria-labelledby="ilustracion-tab">
+          <div id="container-mosaico" class="container">
+            <div class="row">
+              <div class="col-md-7 p-5">
+                <div class="mosaico mosaico1 proyecto-3"><a href="http://fierzchile.com/">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">FIERZ</p>
+                      <div class="linea"></div>
+                      <p class="bajada">WEB</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-4 p-1">
+                <div class="mosaico mosaico3 proyecto-2"><a href="https://carofuentesn.github.io/Startup-Treek-in/">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">TREKK IN</p>
+                      <div class="linea"></div>
+                      <p class="bajada">WEB</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-4"><span class="p-1 d-lg-block">
+                  <div class="mosaico mosaico3 proyecto-10"><a href="https://carofuentesn.github.io/CUPPON_DESAFIO/">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">CUPPON</p>
+                        <div class="linea"></div>
+                        <p class="bajada">WEB</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+
+              <div class="col-md-7"><span class="p-5 d-lg-block">
+                  <div class="mosaico mosaico1 proyecto-7"><a href="https://carofuentesn.github.io/GIGEO_APP/">
+                      <div class="info-proyectos">
+                        <p class="titulo-proyecto">GIGEO ART</p>
+                        <div class="linea"></div>
+                        <p class="bajada">WEB</p>
+                      </div>
+                    </a>
+                  </div>
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="tab-pane fade" id="otros" role="tabpanel" aria-labelledby="otros-tab">
+          <div id="container-mosaico" class="container">
+            <div class="row">
+              <div class="col-md-7 p-5">
+                <div class="mosaico mosaico1 proyecto-12"><a href="../Portafolio 2.0/impresos.html">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">IMPRESOS 2018-2019</p>
+                      <div class="linea"></div>
+                      <p class="bajada">IMPRESOS</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 p-1">
+                <div class="mosaico mosaico3 proyecto-11"><a href="">
+                    <div class="info-proyectos">
+                      <p class="titulo-proyecto">ARTE DIGITAL</p>
+                      <div class="linea"></div>
+                      <p class="bajada">ILUSTRACIÓN VECTORIAL</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+
+  <!--SOBRE MI/////////////////////////////////////////////////////////////////////////////////-->
+  <section class="container" id="sobremi">
+    <div class="sobremi">
+      <h1 class="text-center titulo-seccion scroll-1">SOBRE MI</h1>
+    </div>
+
+    <div class="row sobremi__contenidos">
+
+      <div class="col-md-6 scroll-5">
+        <img src="assets/img/foto-carolina2.jpg" style="width: 95%; height: auto;" alt="">
+
+
+        <div class="py-4 my-5 d-none d-md-block sobremi__contenidos-iconos" style="height: 20%; width: 95%;">
+          <hr>
+          <a href="https://www.linkedin.com/in/carolina-fuentes-naranjo/"><i class="fab fa-linkedin fa-4x pr-3"></i></a>
+          <a href="https://www.behance.net/CalorinaFuentes"><i class="fab fa-behance-square fa-4x"></i></a>
+        </div>
+
+
+
+
+        <!-- <div class="py-4 my-5 d-none d-md-block" style="height: 20%; width: 95%;">
+          <h3 class="pb-2 pt-2 text-center">Toolkit</h3>
+          <hr>
+          <div class="d-flex justify-content-around flex-wrap pt-2">
+            <img class="tamaño-iconos" src="assets/img/illustrator.svg" alt="">
+            <img class="tamaño-iconos" src="assets/img/photoshop.svg" alt="">
+            <img class="tamaño-iconos" src="assets/img/After-effects.svg" alt="">
+            <img class="tamaño-iconos" src="assets/img/xd.svg" alt="">
+          </div>
+          <div class="d-flex"><i class="fab fa-figma fa-3x"></i>
+            <i class="fab fa-sketch fa-3x"></i>
+            <i class="fab fa-wordpress-simple fa-3x"></i>
+            <i class="fab fa-css3-alt fa-3x"></i>
+            <i class="fab fa-html5 fa-3x"></i></div>
+        </div> -->
+
+        <!-- <div class="p-4" style="height: 180px; width: 280px;">
+            <h3 class="pb-3 pt-2">Habilidades</h3>
+            <div class="d-flex justify-content-between">
+              <i class="fas fa-hashtag fa-3x"></i>
+              <i class="fas fa-bezier-curve fa-3x"></i>
+              <i class="fas fa-code fa-3x"></i>
+            </div>
+          </div> -->
+      </div>
+
+
+      <div class="col-md-6 scroll-5" id="sobremi__contenidos-izq">
+
+        <h3 class="pb-3 pt-4">Un Spoiler:</h3>
+        <p>Me llamo Carolina Fuentes y soy una Diseñadora multifacética especializada en UX/UI. Además tengo una
+          licenciatura en Diseño la que me abrió las puertas al mundo de
+          investigación.</p>
+        <p>Soy de esas personas que cuidan mucho los detalles, me enamoro fácilmente de lo que hago y salgo de mi área
+          de confort recurrentemente (aunque me aterre).</p>
+        <!-- <p>¿Mis habilidades?
+            Ser empática, una persona fácil de llevar, y sobre todo con mucha hambre de aprender cosas nuevas.</p> -->
+        <h3 class="pb-3 pt-5">¿Qué hago?</h3>
+        <p>Busco nuevos enfoques para dar soluciones a problemas actuales, combinando la investigación, datos
+          complejos, la narración
+          de historias y desarrollo visual, para traducirlas en experiencias elegantes y funcionales.</p>
+        <p>He trabajando en conjunto con equipos de marketing, gestionando contenidos en RRSS, web, Motion graphics e
+          incluso como fotógrafa.
+          Soy una entusiasta del código y a veces Ilustradora Digital.</p>
+        <h3 class="pb-2 pt-5">¿Otras cosas que contar?</h3>
+        <p>Soy una amante del thriller psicológico, tengo habilidad para dibujar personajes, me encanta el helado de
+          menta y la
+          ilustración de moda.</p>
+      </div>
+
+      <div class="col-md-1"></div>
+
+    </div>
+    <div class="py-4 my-5 d-none" style="height: 20%; width: 95%;">
+      <h3 class="pb-2 pt-2 text-center">Toolkit</h3>
+      <hr>
+      <div class="d-flex justify-content-around flex-wrap pt-2">
+        <img class="tamaño-iconos" src="assets/img/illustrator.svg" alt="">
+        <img class="tamaño-iconos" src="assets/img/photoshop.svg" alt="">
+        <img class="tamaño-iconos" src="assets/img/After-effects.svg" alt="">
+        <img class="tamaño-iconos" src="assets/img/xd.svg" alt="">
+      </div>
+      <div class="d-flex"><i class="fab fa-figma fa-3x"></i>
+        <i class="fab fa-sketch fa-3x"></i>
+        <i class="fab fa-wordpress-simple fa-3x"></i>
+        <i class="fab fa-css3-alt fa-3x"></i>
+        <i class="fab fa-html5 fa-3x"></i></div>
+    </div>
+    <div class="button_cont scroll-3" align="center"><a class="example_c"
+        href="assets/pdf/CV-Carolina_Fuentes_Diseñadora_UXUI.pdf" target="_blank" rel="nofollow noopener">VER
+        CURRICULUM</a></div>
+
+  </section>
+  <!-- linea /////////////////////////////////////////////////////////////////////-->
+  <!-- <div class="d-none d-sm-block espacio-scroll">
+    <div class="espacio-scroll__linea"></div>
+    <div class="espacio-scroll__texto">SCROLL 4 FREE</div>
+  </div> -->
+
+  <!--HABLEMOS/////////////////////////////////////////////////////////////////////////////////-->
+  <section class="container hablemos scroll-3" id="hablemos">
+    <h1 class=" pt-5 titulo-seccion">HABLEMOS</h1>
+    <h3 class="row col-md-9 col-lg-8 m-0 p-0">¿Quieres trabajar conmigo, preguntarme algo <br class="d-none d-lg-block">
+      o solo decirme hola? Cuéntamelo aquí</h2>
+
+      <div class="row">
+
+        <div class="typeform-widget" data-url="https://carolina579334.typeform.com/to/Pzt1Ei"
+          style="width: 100%; height: 500px;"></div>
+        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+       
+
+
+        <!--
+        <div class="col-md-4 hablemos__email">
+          <a href="mailto:carolinapaz.fn@gmail.com?Subject=Hola!">
+            <i id="enviar_mail" class="far fa-envelope fa-3x" data-toggle="tooltip" data-placement="top"
+              title="Click para envíar un email"></i></a>
+          <a href="mailto:carolinapaz.fn@gmail.com?Subject=Hola!">
+            <h5>carolinapaz.fn@gmail.com</h5>
+          </a>
+        </div>       
+        
+        <form action="envia.php" method="post"
+          class="col-12 col-md-8 text-center p-5 form-consulta hablemos__formulario">
+          <input type="text" name="nombre" id="defaultContactFormName" class="form-control mb-4" required
+            placeholder="Nombre*">
+          <input type="email" name="email" id="email" class="form-control mb-4" placeholder="E-mail*">
+          <div class="form-group">
+            <textarea name="mensaje" class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+              placeholder="Mensaje"></textarea>
+          </div> 
+        <div class="button_cont scroll-3" align="center"><a class="example_c" data-toggle="modal"
+              data-target="#centralModalSm">ENVIAR MENSAJE</a></div> -->
+        <!-- <input type="submit" value="Enviar" class="btn-form" data-toggle="modal" data-target="#centralModalSm">
+        </form> -->
+      </div>
+  </section>
+
+  <!--MODAL///////////////////////////////////////////////////////////////////////////////////////-->
+  <div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+
+    <div class="modal-dialog modal-sm" role="document">
+
+      <div class="modal-content modal-estilo">
+        <div class="modal-header">
+          <h4 class="modal-title text-center" id="myModalLabel">GENIAL</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <h5>Tu mensaje fue enviado <br> ¡Estamos en contacto! </h5>
+          <i class="em em-right-facing_fist" aria-role="presentation" aria-label="RIGHT-FACING FIST"></i>
+          <i class="em em-left-facing_fist" aria-role="presentation" aria-label="LEFT-FACING FIST"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!---->
+  <div class="container">
+    <div class="lineas-footer row">
+      <div class="col-12">
+        <hr>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <!-- con <i class="far fa-heart corazon"></i> -->
+    <p class="text-center">Sitio diseñado y construido por mi. <br>Carolina
+      Fuentes © 2020</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" href="assets/js/navbar.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    function fnc_toggle() {
+      document.getElementById('ocultarmostrar').style.display = "block";
+      document.getElementById('showhide').style.display = "none";
+    }
+  </script>
+  <script type="text/javascript">// efecto de navegacion
+    ScrollReveal().reveal(
+      '.scroll-1',
+      {
+        distance: '50px',
+        origin: 'bottom',
+        interval: 16,
+        duration: 1000
+      }
+    );
+    ScrollReveal().reveal(
+      '.scroll-2',
+      {
+        distance: '50px',
+        origin: 'bottom',
+        interval: 16,
+        duration: 1200
+      }
+    );
+    ScrollReveal().reveal(
+      '.scroll-3',
+      {
+        distance: '50px',
+        origin: 'bottom',
+        interval: 16,
+        duration: 1400
+      }
+    );
+    ScrollReveal().reveal(
+      '.scroll-4',
+      {
+        distance: '50px',
+        origin: 'bottom',
+        interval: 16,
+        duration: 1900
+      }
+    );
+    /////////////////////////////////////
+    ScrollReveal().reveal(
+      '.scroll-5',
+      {
+        distance: '160px',
+        origin: 'bottom',
+        interval: 16,
+        duration: 1200
+      }
+    );
+
+  </script>
+  <!--
+<script type="text/javascript">
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.scroll-botones', { duration: 1800 });
+    sr.reveal('.scroll-botones', { distance: 50 });
+  </script>
+
+  <script type="text/javascript">
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.scroll-formulario', { duration: 1500 });
+    sr.reveal('.scroll-formulario', { distance: 50 });
+  </script>-->
+
+  <script type="text/javascript"> //Navbar lateral
+    function openFunction() {
+      document.getElementById("menu").style.width = "300px";
+      document.getElementById("mainbox").style.marginLeft = "300px";
+      document.getElementById("btn-menu").style.display = 'none';
+    }
+
+    function closeFunction() {
+      document.getElementById("menu").style.width = "0px";
+      document.getElementById("mainbox").style.marginLeft = "0px";
+      document.getElementById("btn-menu").style.display = 'inline';
+    }
+  </script>
+
+  <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
+</body>
+
+</html>

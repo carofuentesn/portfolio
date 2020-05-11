@@ -1,0 +1,62 @@
+h1 {
+    font-family: $font-principal;
+    font-size: $xxl;
+    font-weight: $black;
+    color: $color-font1;
+    
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+h1 {
+    font-family: $font-principal;
+    font-size: $xxl;
+    font-weight: $black;
+    color: $color-font1;
+}
+
+}
+
+h2 {
+    font-family: $font-principal;
+    font-size: $xl;
+    font-weight: $black!important;
+}
+
+h3 {
+    font-family: $font-principal;
+    font-size: $l;
+    font-weight: $bold!important;
+    color: $color-font1;  
+}
+
+h4 {
+    font-family: $font-principal;
+    font-size: $s;
+    font-weight: $bold!important;
+    color: $color-font1;
+}
+
+h5 {
+    font-family: $font-principal;
+    font-size: $s;
+    font-weight: $medium!important;
+    color: $color-font1;    
+}
+
+li, p, a {
+    font-family: $font-principal;
+    font-size: $s;
+    font-weight: $medium!important;
+    color: $color-font1;
+}
+
+.letra-resaltada {
+    font-family: $font-principal;
+    font-size: $m;
+    font-weight: $bold;
+    color: $color-font1;  
+}
+
+
+

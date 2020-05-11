@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: $color-font2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineas-footer {
+    display: flex;
+    align-items: center;
+}
+
+.corazon {
+	animation: latidos .6s infinite;
+	transform-origin: center;
+    @keyframes latidos {
+        from { transform: none; }
+        10% { transform: scale(1.3); }
+        to { transform: none; }
+        }
+}

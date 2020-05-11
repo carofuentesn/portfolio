@@ -1,0 +1,96 @@
+header {
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/foto-perfil.jpg);
+    background-repeat: no-repeat;
+  background-position: right;
+    background-size: 80% 70%;
+    .header__textos {
+        padding-top: 200px;
+        a {
+        color: $color-font1;
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        }
+        .header__textos-hola {
+            font-size: $xxxl!important;
+            font-weight: $black!important;
+            height: 90px!important;
+        }
+        h1 {
+            font-size: $xxl!important; 
+        }
+    }
+}
+
+////////////////////////////////////// icono fecha hacia abajo
+
+#header {
+    i{
+    margin: 20px 50% 0 50%;    
+    }
+    .icon-down a {
+        color: $color-font1;
+        :hover {
+            color: $color-font1;
+        }
+    }   
+}
+
+@media (min-width: 768px) {
+    #header i {
+        margin: 490px 50% 0 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    #header i {
+        margin: 430px 50% 0 50%;
+    }
+}
+
+/////////////////////////////////// animación flecha a proyectos
+
+.icon-down {
+    position: relative;
+    -webkit-animation: icon-down-animations .9s ease-in .9s infinite alternate;
+    animation: icon-down-animations .9s ease-in .9s infinite alternate;
+  }
+  
+  @-webkit-keyframes icon-down-animations {
+    0% {
+      top: 12px;
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      top: 0;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes icon-down-animations {
+    0% {
+      top: 12px;
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      top: 0;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 0;
+    }
+  }
