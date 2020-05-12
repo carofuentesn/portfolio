@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--googlefont y fontawesome-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--Favicon-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+    <!--EMOJIS-->
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <!--mi estilo-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Blog UI</title>
+</head>
+
+<body>
+    <!--NAVBAR/////////////////////////////////////////////////////////////////////////////////-->
+    <div id="mainbox" onclick="openFunction()">
+        <div class="hvr-icon-grow"> <i id="btn-menu" class="fas fa-bars fa-2x grow-icon"></i></div>
+    </div>
+    <div id="menu" class="sidemenu">
+        <a href="#proyectos" onclick="closeFunction()">PROYECTOS</a>
+        <a href="#sobremi" onclick="closeFunction()">SOBRE MI</a>
+        <a href="#hablemos" onclick="closeFunction()">HABLEMOS</a>
+        <a class="closebtn" onclick="closeFunction()">
+            <div href="" class="hvr-icon-spin"><i id="btn-close" class="fas fa-times hvr-icon"></i></div>
+        </a>
+    </div>
+
+    <!--LOGO///////////////////////////////////////////////////////////////////////////////////-->
+    <div class="fixed-bottom logo">
+        <a href="../Portafolio 2.0/index.html">
+            <h2 class="logo-carolina">C</h2>
+        </a>
+    </div>
+    <!--HEADER///////////////////////////////////////////////////////////////////////////////////-->
+
+    <div id="header-corte_ingles"> </div>
+
+
+    <!--PROYECTO///////////////////////////////////////////////////////////////////////////////-->
+    <section class="seccion-proyectos">
+
+
+        <div class="container scroll-5">
+            <div class="row proyecto-detalle">
+                <div class="col-md-3">
+                    <ul>
+                        <li class="proyecto-detalle__info-titulos">Herramientas</li>
+                        <div clas="d-flex">
+                            <i class="fab fa-figma fa-2x iconos-herramientas"></i>
+                        </div>
+                        <li class="proyecto-detalle__info-titulos">Rol</li>
+                        <p>Diseñadora UI</p>
+                        <li class="proyecto-detalle__info-titulos">Objetivo de Proyecto</li>
+                        <P>Desarrollar Wirefrime - UI del Blog Le Happy</P>
+                    </ul>
+                </div>
+
+                <div class="d-none d-md-block col-1"></div>
+                <div class="col-md-8">
+                    <h3 class="mb-3">Blog Le Happy</h3>
+                    <p>El Corte Inglés es uno de los más importantes
+                        grupos empresariales de España.</p>
+                    <p> Hoy en día cuenta con más de 700 oficinas, lo que la
+                        posiciona como líder en su sector, teniendo a nivel
+                        internacional agencias en Francia, Bélgica, Portugal,
+                        Italia, Estado Unidos, Chile, México, Argentina, Perú,
+                        Cuba y Rep. Dominicana.</p>
+                    <p>Dentro del Grupo, Viajes El Corte Inglés es una de las agencia de viajes más importantes del
+                        sector.</p>
+                    <img class="w-100 pt-5 pb-2" src="assets/img/proyectos/corte-ingles-web.jpg" alt="">
+                    <p class="text-black-50">chile.viajeselcorteingleslatam.com</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container scroll-2">
+            <div class="row proyecto-detalle">
+                <div class="d-none d-md-block col-md-4"></div>
+                <div class="col-md-8">
+                    <h3 class="mb-3">El desafío</h3>
+                    <p>El sitio web de la empresa ofrece paquetes de viaje individuales y grupales para diferentes
+                        destinos de Chile y Europa, viajes para novios y en cruceros.</p>
+                    <p class="pb-5">En esta instancia, el desafío consistió en analizar el trayecto que el usuario recorre a través
+                        del sitio web para poder obtener una cotización de viaje según sus necesidades y expectativas, y
+                        así
+                        poder identificar falencias en la plataforma y su servicio que puedan afectar su experiencia.
+                        Para ello fue necesario crear al usuario, conocer su entorno, pensamientos, dolores y
+                        ambiciones, y
+                        como interactúa con el servicio ofrecido.</p>
+                    <div class="pt-5 pb-3 d-flex align-items-center">
+                        <i class="fas fa-user-circle fa-2x pr-3"></i>
+                        <h3 class="p-0 m-0">Definiendo al usuario</h3>
+                    </div>
+
+                    <p> <span class="font-weight-bold">¿Quién está usando esta plataforma?</span></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container scroll-2" style="background-color: #E8EBEA; border-radius: 15px;">
+
+            <div class="d-flex justify-content-center align-items-center pb-3 pt-5">
+                <img id="perfil-empatia" src="assets/img/proyectos/corte-ingles-perfil.png" alt="">
+                <div>
+                    <h2>José María Lyon</h2>
+                    <h3>Perfil de Usuario</h3>
+                </div>
+            </div>
+
+            <div class="card-columns cards-perfil-usuario">
+                <div class="card mb-3 p-2" style="background-color: #498967;">
+                    <div class="card-body">
+                        <h3 class="card-title text-light">Perfil demográfico</h3>
+                        <p class="card-text text-light">Ingeniero Comercial de la Adolfo Ibañez, tiene 30 años, es
+                            soltero, no tiene rasgos que lo identifiquen con una etnia en
+                            particular. Trabaja para el área de Transformación Digital de
+                            una reconocida marca de Retail.</p>
+                    </div>
+                </div>
+                <div class="card mb-3 p-2" style="background-color: #74AB94;">
+                    <div class="card-body">
+                        <h3 class="card-title">Perfil geográfico</h3>
+                        <p class="card-text">Vive actualmente en Lo Barnechea, en un departamento
+                            junto a sus 3 mejores amigos. Se mueve principalmente
+                            entre Providencia, Ñuñoa, Vitacura y Las Condes, pero por
+                            su trabajo debe recorrer gran parte de la capital.</p>
+
+                    </div>
+                </div>
+                <div class="card mb-3 p-2" style="background-color: #74AB94;">
+                    <div class="card-body">
+                        <h3 class="card-title">Perfil conductual</h3>
+                        <p class="card-text">Le gusta ver charlas TEDx, programas de viaje, ir a fiestas y
+                            viajar ya sea dentro o fuera de Chile. Quiere aprender nuevos
+                            idiomas. Es católico de herencia familiar pero actualmente se
+                            siente bastante lejano a la religión.
+                            De pensamiento político de centro-derecha. Sus vacaciones
+                            soñadas serían recorriendo Europa.</p>
+                    </div>
+                </div>
+
+                <div class="card text-center mb-3 p-2" style="background-color: #498967;">
+                    <div class="card-body">
+                        <h3 class="card-title text-light">Cita que lo caracterice</h3>
+                        <p class="card-text text-light">"Deseo poder vivir nuevas y emocionantes experiencias,
+                            consolidar mi PYME y en dos o tres años lograr
+                            independizarme laboralmente."</p>
+                    </div>
+                </div>
+                <div class="card mb-3 p-2" style="background-color: #498967;">
+                    <div class="card-body">
+                        <h3 class="card-title text-light">Perfil tecnológico</h3>
+                        <p class="card-text text-light">Es un heavy user de RRSS, principalmente instagram y
+                            linkedin. Administra gran parte de su vida a través de su
+                            iphone y apple watch. Cuenta con dominio en programas
+                            asociados a administración de compra/venta y marketing
+                            digital.</p>
+                    </div>
+                </div>
+                <div class="card mb-3 p-2" style="background-color: #74AB94;">
+                    <div class="card-body">
+                        <h3 class="card-title">Expectativa del servicio</h3>
+                        <p class="card-text">Se va a conectar principalmente desde su smartphone, por lo
+                            cual, quiere un sitio de uso fácil, donde pueda encontrar información sobre viajes y
+                            realizar la cotización de manera sencilla.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="contenedor-mapa scroll-4">
+                <img class="py-5 w-100" id="corte-ingles-mapa" src="assets/img/proyectos/corte-ingles-empatia.png"
+                    alt="">
+            </div>
+
+        </div>
+
+       
+
+        <div class="container scroll-2" style="padding: 8rem 0 1rem 0;">
+            <div class="row proyecto-detalle">
+                <div class="d-none d-md-block col-md-4"></div>
+                <div class="col-md-8">
+                    <div class="mb-3 d-flex align-items-center">
+                        <i class="fas fa-hiking fa-2x pr-3"></i>
+                        <h3> El recorrido</h3>
+                    </div>
+
+                    <p class="p-0">Se llevó a cabo un análisis sobre el trayecto e interacción que realiza el usuario a
+                        través del sitio web hasta obtener la cotización de viaje que desea.</p>
+                    <div class="py-3 letra-resaltada">Tomamos en cuenta que, José María Lyon es una persona
+                        que siempre está en movimiento y muy ocupada, por lo que privilegia utilizar su smartphone por
+                        sobre
+                        un computador, entonces pusimos foco principal en la versión mobile del sitio.</div>
+                    <p>A continuación, se muestran las pantallas de la navegación realizada por el usuario para realizar
+                        la tarea.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container scroll-2">
+            <div class="row proyecto-detalle">
+                <div class="col">
+                    <h4 class="text-secondary">Inicia desde el teléfono móvil</h4>
+                </div>
+
+                <img class="w-100" src="assets/img/proyectos/corte-ingles-pasos1.jpg" alt="">
+                <img class="w-100" src="assets/img/proyectos/corte-ingles-pasos2.jpg" alt="">
+                <h4 class="text-secondary">La tarea sigue y finaliza en desktop</h4>
+                <img class="w-100" src="assets/img/proyectos/corte-ingles-pasos3.jpg" alt="">
+                <!-- <img class="w-100" src="assets/img/proyectos/corte-ingles-pasos5.jpg" alt=""> -->
+                <h3 class="pb-3 pt-5">Partitura de interacción</h3>
+                <img class="w-100" src="assets/img/proyectos/corte-inlges-interaccion1.jpg" alt="">
+                <img class="w-100" src="assets/img/proyectos/corte-inlges-interaccion2.jpg" alt="">
+            </div>
+        </div>
+        
+        <div>
+            
+        </div>
+
+        <div class="container py-5">
+            <div class="row proyecto-detalle">
+                <div class="d-none d-md-block col-4 scroll-6">
+                    <div class="d-flex justify-content-end">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                            <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6"
+                                stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1" />
+                            <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6"
+                                stroke-linecap="round" stroke-miterlimit="10"
+                                points="100.2,40.2 51.5,88.8 29.8,67.5 " />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-md-8 scroll-2">
+                    <h3 class="mb-3">Observaciones y recomendaciones del Equipo UX</h3>
+                    <p>Tras el análisis expuesto anteriormente, se concluyó que los puntos negativos durante la
+                        navegación del usuario en el sitio web, se relacionan principalmente con los tiempos de carga,
+                        errores de códigos del sitio y
+                        la información recibida sobre el servicio.</p>
+
+                    <div class="py-3 letra-resaltada">Una solución de poco esfuerzo y alto impacto: mejorar la velocidad
+                        de carga, optimizando principalmente las imágenes.</div>
+                    <!-- <p>Esto se extrajo del monitoreo realizado sobre la performance del sitio web mediante Google
+                        PageSpeed Insights.</p> -->
+                    <div class="py-3 letra-resaltada">Es solo una cotización: sin formularios extensos que llenar, una
+                        cotización clara y
+                        detallada son los puntos clave. </div>
+                    <p>En el caso de este formulario, el problema se presentó en no poder finalizar la operación desde
+                        el teléfono móvil por un error de códigos en el campo de validación de email. </p>
+                    <p> Por otro lado, se
+                        identificó la falta de mayor detalle en la información de la cotización enviada, lo que
+                        posiblemente lleve a que el usuario se comunique por otra vía con la empresa, o se decida por los
+                        servicios de otra empresa.</p>
+                </div>
+            </div>
+        </div>
+
+        <a
+            href="https://www.canva.com/design/DAD1a8Xl4mQ/8pQiXQIHy0VPT7yIEt6kJw/view?utm_content=DAD1a8Xl4mQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
+            <h4 class="text-center py-3">> Mira la presentación AQUÍ</h4>
+        </a>
+
+    </section>
+
+    <!--SECCION CONTACTAR ////////////////////////////////////////////////////////////////////////-->
+    <section>
+        <div id="hablemos-proyectos" class="scroll-formulario">
+            <h3 class="text-center">¿Qué te pareció este proyecto? Dame tu feedback :)</h3>
+            <div class="button_cont2 scroll-botones" align="center"><a class="example_b"
+                    href="../portafolio2/index.html#hablemos" target="_self" rel="nofollow noopener">¡HABLEMOS!</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--BOTONES ////////////////////////////////////////////////////////////////////////-->
+
+    <section id="botones-proyectos" class="container">
+        <a href=""><i class="d-none fas fa-arrow-left fa-2x"></i></a>
+        <div class="volver-proyectos">
+            <a href="../portafolio2/index.html#proyectos"><i class="fas fa-th-large fa-2x"></i></a>
+            <a href="../portafolio2/index.html#proyectos">
+                <P>VOLVER A PROYECTOS</P>
+            </a>
+        </div>
+        <a href=""><i class=" d-none fas fa-arrow-right fa-2x"></i></a>
+    </section>
+
+
+
+    <!--FOOTER///////////////////////////////////////////////////////////////////////////////////-->
+    <div class="container">
+        <div class="lineas-footer row">
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="text-center">Sitio diseñado y construido por mi. Carolina
+            Fuentes © 2020</p>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" href="assets/js/navbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js"></script>
+    <script type="text/javascript">// efecto de navegacion
+        ScrollReveal().reveal(
+            '.scroll-1',
+            {
+                distance: '50px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1000
+            }
+        );
+        ScrollReveal().reveal(
+            '.scroll-2',
+            {
+                distance: '50px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1200
+            }
+        );
+        ScrollReveal().reveal(
+            '.scroll-3',
+            {
+                distance: '50px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1400
+            }
+        );
+        ScrollReveal().reveal(
+            '.scroll-4',
+            {
+                distance: '50px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1900
+            }
+        );
+        /////////////////////////////////////
+        ScrollReveal().reveal(
+            '.scroll-5',
+            {
+                distance: '160px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1200
+            }
+        );
+
+        ScrollReveal().reveal(
+            '.scroll-6',
+            {
+                distance: '160px',
+                interval: 16,
+                duration: 1200
+            }
+        );
+    </script>
+
+    <script type="text/javascript">
+        window.sr = ScrollReveal({ reset: true });
+        sr.reveal('.scroll-botones', { duration: 1800 });
+        sr.reveal('.scroll-botones', { distance: 200 });
+    </script>
+
+    <script type="text/javascript">
+        window.sr = ScrollReveal({ reset: true });
+        sr.reveal('.scroll-formulario', { duration: 1500 });
+        sr.reveal('.scroll-formulario', { distance: 200 });
+    </script>
+
+    <script type="text/javascript"> //Navbar lateral
+        function openFunction() {
+            document.getElementById("menu").style.width = "300px";
+            document.getElementById("mainbox").style.marginLeft = "300px";
+            document.getElementById("btn-menu").style.display = 'none';
+        }
+
+        function closeFunction() {
+            document.getElementById("menu").style.width = "0px";
+            document.getElementById("mainbox").style.marginLeft = "0px";
+            document.getElementById("btn-menu").style.display = 'inline';
+        }
+    </script>
+
+</body>
+
+</html>
