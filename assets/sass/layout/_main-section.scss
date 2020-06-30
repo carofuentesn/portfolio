@@ -7,7 +7,7 @@
     &:hover {
       color: $color-font3 !important;
       text-decoration-color: $color-font3 !important;
-      transition:all .5s ease-in-out;
+      transition: all 0.5s ease-in-out;
     }
   }
 }
@@ -95,9 +95,9 @@
   a {
     text-decoration: none;
   }
-  -webkit-box-shadow: 21px 26px 17px -8px rgba(168,168,168,0.82);
--moz-box-shadow: 21px 26px 17px -8px rgba(168,168,168,0.82);
-box-shadow: 21px 26px 17px -8px rgba(168,168,168,0.82);
+  -webkit-box-shadow: 21px 26px 17px -8px rgba(168, 168, 168, 0.82);
+  -moz-box-shadow: 21px 26px 17px -8px rgba(168, 168, 168, 0.82);
+  box-shadow: 21px 26px 17px -8px rgba(168, 168, 168, 0.82);
 }
 
 //////////////////* mosaicos tamaños*/
@@ -124,10 +124,6 @@ box-shadow: 21px 26px 17px -8px rgba(168,168,168,0.82);
 }
 
 /////////////////////*imagenes miniaturas de galeria proyectos*/
-
-/*.proyecto7 {
-  background-image: url(../img/proyecto-7.jpg);
-}*/
 
 .proyecto-1 {
   background-image: url(../img/thumbail/blogger.jpg);
@@ -172,10 +168,13 @@ box-shadow: 21px 26px 17px -8px rgba(168,168,168,0.82);
   background-image: url(../img/thumbail/ilustracion.jpg);
 }
 
-.proyecto-12 {
-  background-image: url(../img/thumbail/impresos.jpg);
+.proyecto-13 {
+  background-image: url(../img/thumbail/eymi.jpg);
 }
 
+.proyecto-12 {
+  background-image: url(../img/thumbail/chilelogistica.jpg);
+}
 
 /* hover en miniaturas de proyectos*/
 
@@ -248,34 +247,55 @@ box-shadow: 21px 26px 17px -8px rgba(168,168,168,0.82);
 
 .sobremi {
   margin-bottom: 80px;
+  position: relative;
   .sobremi__subtitulo {
     text-align: right;
     padding-top: 12%;
   }
+  .prueba-1{
+    position: absolute;
+  }
 }
 
 .sobremi__contenidos {
+  position: relative;
   padding-top: 5px;
   .tamaño-iconos {
     width: 50px;
     height: auto;
   }
-  .sobremi__contenidos-iconos{
-    i:hover {
-     transition:all .1s ease-in-out;
-      -webkit-transform:scale(1.1);transform:scale(1.1);
-    }
-    a {
+  
+  #sobremi__contenidos-izq {
+    padding-top: 8%;
+  }
+}
+
+.sobremi__contenidos-iconos {
+  display: flex;
+  i:hover {
+    transition: all 0.1s ease-in-out;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    bottom: 100px;
+  }
+  a {
+    color: $color-font1;
+    &:hover {
       color: $color-font4;
-      &:hover {
-        color: $color-font1;
-        transition:all .1s ease-in-out;
-      }
+      transition: all 0.1s ease-in-out;
     }
   }
+}
 
-  #sobremi__contenidos-izq {
-    padding-top: 15%;
+.cards-logros {
+  padding:.5rem;
+  border: solid 2px #777676;
+  background-color: $color-font2;
+  border-radius: 13px;
+  &:hover {
+    transition: all 0.1s ease-in-out;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
 }
 
@@ -424,11 +444,11 @@ box-shadow: 21px 26px 17px -8px rgba(168,168,168,0.82);
   width: 100vw;
 }
 
-@media (min-width: 992px){
-  #header-corte_ingles{
+@media (min-width: 992px) {
+  #header-corte_ingles {
     min-height: 500px;
-  height: 690px;
-  width: 100vw;
+    height: 690px;
+    width: 100vw;
   }
 }
 
@@ -439,16 +459,15 @@ box-shadow: 21px 26px 17px -8px rgba(168,168,168,0.82);
 }
 
 .contenedor-mapa:hover {
-#corte-ingles-mapa {
-  -webkit-transform:scale(1.15);
-  transform:scale(1.15);
-  transition:all .5s ease-in-out;
-}
+  #corte-ingles-mapa {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+  }
 }
 
-.cards-perfil-usuario{
+.cards-perfil-usuario {
   padding: 2rem;
-
 }
 
 .iconos-herramientas {
@@ -467,18 +486,18 @@ svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 0;
   &.circle {
-    -webkit-animation: dash .9s ease-in-out;
-    animation: dash .9s ease-in-out;
+    -webkit-animation: dash 0.9s ease-in-out;
+    animation: dash 0.9s ease-in-out;
   }
   &.line {
     stroke-dashoffset: 1000;
-    -webkit-animation: dash .9s .35s ease-in-out forwards;
-    animation: dash .9s .35s ease-in-out forwards;
+    -webkit-animation: dash 0.9s 0.35s ease-in-out forwards;
+    animation: dash 0.9s 0.35s ease-in-out forwards;
   }
   &.check {
     stroke-dashoffset: -100;
-    -webkit-animation: dash-check .9s .35s ease-in-out forwards;
-    animation: dash-check .9s .35s ease-in-out forwards;
+    -webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+    animation: dash-check 0.9s 0.35s ease-in-out forwards;
   }
 }
 
@@ -517,7 +536,6 @@ svg {
     stroke-dashoffset: 900;
   }
 }
-
 
 //////////////////////////////////////////////////// FEEDBACK > HABLEMOS
 #hablemos-proyectos {
