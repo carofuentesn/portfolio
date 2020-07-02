@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--googlefont y fontawesome-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--Favicon-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+    <!--EMOJIS-->
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <!--mi estilo-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Eymi App</title>
+</head>
+
+<body>
+    <!--NAVBAR/////////////////////////////////////////////////////////////////////////////////-->
+    <div id="mainbox" onclick="openFunction()">
+        <div class="hvr-icon-grow"> <i id="btn-menu" class="fas fa-bars fa-2x grow-icon"></i></div>
+    </div>
+    <div id="menu" class="sidemenu">
+        <a href="#proyectos" onclick="closeFunction()">PROYECTOS</a>
+        <a href="#sobremi" onclick="closeFunction()">SOBRE MI</a>
+        <a href="#hablemos" onclick="closeFunction()">HABLEMOS</a>
+        <a class="closebtn" onclick="closeFunction()">
+            <div href="" class="hvr-icon-spin"><i id="btn-close" class="fas fa-times hvr-icon"></i></div>
+        </a>
+    </div>
+
+    <!--LOGO///////////////////////////////////////////////////////////////////////////////////-->
+    <!-- <div class="fixed-bottom logo">
+        <a href="../Portafolio 2.0/index.html">
+            <h2 class="logo-carolina">C</h2>
+        </a>
+    </div> -->
+    <!--HEADER///////////////////////////////////////////////////////////////////////////////////-->
+
+    <div id="header-eymi"></div>
+
+
+    <!--PROYECTO///////////////////////////////////////////////////////////////////////////////-->
+    <section class="seccion-proyectos">
+
+
+        <div class="container scroll-5">
+            <div class="row proyecto-detalle">
+                <div class="col-md-3">
+                    <ul>
+                        <li class="proyecto-detalle__info-titulos">Herramientas</li>
+                        <ul class="p-2">
+                            <li>User person - Mapa de empatía</li>
+                            <li>Customer Journey Map</li>
+                        </ul>
+                        <li class="proyecto-detalle__info-titulos">Rol en el equipo</li>
+                        <p>Diseñadora UX / UI</p>
+                        <li class="proyecto-detalle__info-titulos">Objetivo</li>
+                        <P>Desarrollar una plataforma que permita verificar el estado de salud físico y emocional de
+                            adultos mayores y
+                            conocer si tienen necesidades que deban suplementarse.</P>
+                    </ul>
+                </div>
+
+                <div class="d-none d-md-block col-1"></div>
+                <div class="col-md-8">
+                    <h3>EYMI: La plataforma que te ayuda a cuidar a los adultos mayores </h3>
+                    <p>Aquí hay que decir que donde se enmarca el proyecto, que trata del quienes se encargan del cuidado del am y el contexto de pandemia y la lejania con parientes, ademas de la solución</p>
+
+                    <h3 class="mb-3">Etapas del desarrollo del proyecto</h3>
+                    <p>En conjunto con el equipo propusimos 5 hitos importantes para el desarrollo de este proyecto,
+                        que se muestran a continuación:</p>
+                    <br>
+                    <ul>
+                        <li>HITO 1: Entendiendo el problema</li>
+                        <li>HITO 2: Organizar la información</li>
+                        <li>HITO 3: Diseñar la interacción</li>
+                        <li>HITO 4: Diseñar la interfaz de usuario</li>
+                    </ul>
+                    <h3> HITO 1: Entendiendo el problema</h3>
+
+                    <div class="letra-resaltada">Contexto y problemática</div>
+                    <div class="letra-resaltada">En Chile, alrededor de 3,5 millones de personas son adultos mayores,
+                        donde el 22% de ellos vive
+                        solo.</div>
+                    <br>
+
+                    <p>Muchas de las personas de tercera edad cuentan con la asistencia de un cuidador, ya sea un
+                        familiar designado a su cuidado, o un profesional contratado, quién cumple un rol significativo
+                        para el bienestar del anciano y la tranquilidad de su grupo familiar.</p>
+
+                    <p>Por otro lado, también es quien debe enfrentar momentos críticos relacionados al estrés que
+                        conlleva el cuidado de estos, y en algunas ocasiones, la falta de comunicación con la familia o
+                        tutores.</p>
+                    <img class="w-100 py-3" src="assets/img/proyectos/eymi-anciana.jpg" alt="">
+
+                    <p class="pt-3"> Actualmente, debido a la contingencia generada por la pandemia y la necesidad de
+                        mantener el
+                        distanciamiento social, se ha vuelto más difícil que las personas del entorno familiar puedan
+                        estar en contacto directo con los adultos mayores y en consecuencia con sus cuidadores.</p>
+
+                    <p>Este nuevo desafío lleva a plantearse un nuevo escenario de atención a distancia, en el cual la
+                        tecnología cumple un rol fundamental, ya que extiende podría extender puentes entre los adultos
+                        mayores, sus cuidadores, su entorno de familiares u otras personas cercanas.</p>
+
+                        <div class="letra-resaltada">Entrevistas</div>
+                        <p>Para la obtención de data cualitativa se llevaron a cabo entrevistas con el fin de conocer
+                            desde
+                            la experiencia de cuidadores de adultos mayores, como se constituyen y organizan las rutinas
+                            de
+                            cuidado del adulto mayor y las dificultades que se pueden presentar en la asistencia de
+                            estos.
+                        </p>
+                        <p>A continuación, se muestran extractos significativos obtenidos de entrevistas:</p>
+
+
+                        <div class="card-deck">
+                            <!-- card: entrevista 2 -->
+                            <!-- card: entrevista 1 -->
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h3 class="card-title">"Cuando un adulto mayor necesita atención diaria es por que
+                                        está muy solo y corre algún tipo de riesgo de caída o de accidente".
+                                    </h3>
+
+                                    <p class="card-text text-black-50">Fabiola Briones, 31 años <br>
+                                        Kinesiólogo, magíster en Gerontología<br>Ha trabajado en residencias de adultos
+                                        mayores.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Card -->
+
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h3 class="card-title">“Hay una hoja de registro donde se van anotando todo lo que
+                                        se le hace al paciente y su desarrollo durante el día".
+
+                                    </h3>
+
+                                    <p class="card-text text-black-50">Sara Yáñez, 63 años <br>
+                                        Técnico paramédico <br>
+                                        Tiene a cargo la alimentación de un adulto mayor.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Card -->
+                        </div>
+                        <!-- card: entrevista 1 -->
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title">"Lo primero es la salud. Si se siente mal emocionalmente (porque
+                                    son como un niño), llamarla, preguntarle si tomó desayuno, a qué hora almorzó, a qué
+                                    hora se bañó, cosa muy normal en familia”.
+
+                                </h3>
+
+                                <p class="card-text text-black-50">Romina Catalán, 32 años. <br>
+                                    Cuida a su mamá
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card -->
+
+                        <!-- Card deck -->
+                        <div class="button_cont scroll-3" align="center"><a class="example_c"
+                                href="https://docs.google.com/document/d/1PTdwYM5FOPaarfPfAkjeoTSohliZlCNG7OQj9gTEpVE/edit?usp=sharing"
+                                target="_blank" rel="nofollow noopener"><i class="fas fa-file-alt pr-2"></i>VER
+                                ENTREVISTAS</a></div>
+
+                        <div class="letra-resaltada">User Person</div>
+                        <p>A partir de la realización de la entrevista, se pudieron identificar y segmentar los usuarios
+                            de esta aplicación. </p>
+                        <div>
+
+                            <p class="font-weight-bold"> <i class="fas fa-user-circle pr-2"></i>Heavy User: <span
+                                    class="font-weight-normal"> Cuidador del adulto mayor. Es la persona que se encarga en primera instancia de asistirlo diariamente, quien podría ser un familiar o una persona contratada para hacerse cargo.</span></p>
+                            <p class="font-weight-bold"> <i class="fas fa-user-circle pr-2"></i>Medium User: <span
+                                    class="font-weight-normal"> Profesionales relacionados al área de la salud o cuidado del adulto mayor, quién deba requerir de los datos que informa el cuidador.</span></p>
+                            <p class="font-weight-bold"> <i class="fas fa-user-circle pr-2"></i>Light User: <span
+                                    class="font-weight-normal"> Personas de la red de apoyo del adulto mayor. Esta red de apoyo se forma de familiares, vecinos u otras personas cercanas quienes monitorean, supervisan o ayudan al adulto mayor ocasionalmente.</span></p>
+                        </div>
+                        <p>Como se mencionó en un comienzo, la aplicación se enfoca en primera instancia al Heavy User, el cuidador, ya que es quién se encargará de realizar la mayor parte de tareas en la aplicación. 
+                           <p>A continuación, se muestra el arquetipo Heavy User extraído a partir de los insights obtenidos de las entrevistas.</p> 
+                            </p>
+                           
+
+                            <div class="button_cont scroll-3" align="center"><a class="example_c"
+                                href="https://miro.com/welcomeonboard/dSHvPJmnMQwOVr52faYXQ80fpgYg4s7g0IL4RedbjxH4vCLKKosFBnJNfwSbh72E"
+                                target="_blank" rel="nofollow noopener"><i class="fas fa-file-alt pr-2"></i>VER ARQUETIPOS</a></div>
+                </div>
+            </div>
+        </div>
+        
+
+
+         <div class="container scroll-2">
+            <div class="row proyecto-detalle">
+                <div class="d-none d-md-block col-md-4"></div>
+                <div class="col-md-8">
+                    
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Definición del Proyecto</h5>
+                            <p class="card-text">Plataforma web y aplicación de registro y asistencia para cuidadores de adultos mayores.</p>
+                        </div>
+
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Objetivo</h5>
+                            <p class="card-text">Desarrollar una plataforma que permita verificar el estado de salud de
+                                adultos mayores y conocer las necesidades cotidianas que deban suplementarse.</p>
+                        </div>
+
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Alcance</h5>
+                            <p class="card-text">Plataforma de registro y asistencia: Permitirá al cuidador llevar un registro de tareas diarias, estados de ánimo y reportes de salud, además de solicitar asistencia de red de apoyo.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Público objetivo</h5>
+                            <p class="card-text">Personas y/o instituciones que atienden adultos mayores y que realizan
+                                seguimiento de su estado de salud físico y emocional, además de sus necesidades diarias.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="letra-resaltada">¿Cómo se medirá el éxito del proyecto?</idv>
+                        <p></p>
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Objetivo: Solicitar asistencia para el adulto mayor en la aplicación
+                                        y en la web.
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Touch points
+                                        <ul>
+                                            <li>Botón de asistencia en la aplicación.</li>
+                                            <li>Sección “Solicitar Asistencia” en la web.</li>
+                                            <li>Formulario para mensaje con detalles en la aplicación y la web.</li>
+                                            <li>Botón “Enviar” en la aplicación y en la web.</li>
+                                        </ul>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">KPI<ul>
+                                            <li>La tasa de conversión en ambos canales:
+                                                Número de solicitudes de asistencia realizadas a través de la aplicación
+                                                y de la web.</li>
+                                            </p>
+                                    </th>
+                                </tr>
+                            </tbody>
+
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Objetivo: Llamar a un contacto de la red de apoyo a través de la
+                                        aplicación.
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Touch points
+                                        <ul>
+                                            <li>Botón de Red de Apoyo en la aplicación.</li>
+                                            <li>Registro de la llamada en la aplicación.</li>
+                                        </ul>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">KPI<ul>
+                                            <li>La tasa de conversión en la aplicación:
+                                                Número de llamadas realizadas a la Red de Apoyo a través de la
+                                                aplicación.
+                                            </li>
+                                            </p>
+                                    </th>
+                                </tr>
+                            </tbody>
+
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Objetivo: Consultar reportes de salud y psicológico en la aplicación
+                                        y en la web.</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Touch points
+                                        <ul>
+                                            <li>Botón de ingreso a ficha médica.</li>
+                                            <li>Botón de Reporte de salud.</li>
+                                            <li> Botón de Reporte psicológico.</li>
+                                        </ul>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">KPI<ul>
+                                            <li>La tasa de conversión en ambos canales:
+                                                Número de consultas de reportes de salud y psicológico.
+                                            </li>
+                                            </p>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+             
+
+                        <h3>HITO 2: Organizando la información</h3>
+                        <div class="letra-resaltada">Análisis competitivo</div>
+                        <p>Las aplicaciones destinadas al cuidado del adulto mayor que existen en la actualidad se
+                            enfocan
+                            solo en algunos puntos que este proyecto pretende abarcar, por lo que se eligieron las
+                            aplicaciones que presenten funcionalidades similares a lo que pretende el proyecto.
+                        </p>
+                        <p>Mediante un benchmark se analizaron aspectos de contenidos, estructura y funcionalidades de estas aplicaciones.
+                        </p>
+
+                        <div class="button_cont scroll-3" align="center"><a class="example_c"
+                            href="https://miro.com/welcomeonboard/dSHvPJmnMQwOVr52faYXQ80fpgYg4s7g0IL4RedbjxH4vCLKKosFBnJNfwSbh72E"
+                            target="_blank" rel="nofollow noopener"><i class="fas fa-file-alt pr-2"></i>VER BENCHMARK</a></div>
+
+                        <div class="letra-resaltada">Mapa de navegación</div>
+
+                        <h3>Flujo de interacción</h3>
+
+                        <h3>HITO 3:</h3>
+                        Wireframe
+
+                        <h3>HITO 4</h3>
+                        UI KIT
+                        PROTOTIPO
+                        TEST DE USABILIDAD|||||||||
+                    </div>
+                </div>
+            </div>
+
+            <div class="container scroll-2">
+                <div class="row proyecto-detalle">
+                    <div class="col">
+                        <h4 class="text-secondary">Inicia desde el teléfono móvil</h4>
+                    </div>
+
+                    <img class="w-100" src="assets/img/proyectos/corte-ingles-pasos1.jpg" alt="">
+                    <img class="w-100" src="assets/img/proyectos/corte-ingles-pasos2.jpg" alt="">
+                    <h4 class="text-secondary">La tarea sigue y finaliza en desktop</h4>
+                    <img class="w-100" src="assets/img/proyectos/corte-ingles-pasos3.jpg" alt="">
+                    <!-- <img class="w-100" src="assets/img/proyectos/corte-ingles-pasos5.jpg" alt=""> -->
+                    <h3 class="pb-3 pt-5">Partitura de interacción</h3>
+                    <img class="w-100" src="assets/img/proyectos/corte-inlges-interaccion1.jpg" alt="">
+                    <img class="w-100" src="assets/img/proyectos/corte-inlges-interaccion2.jpg" alt="">
+                </div>
+            </div>
+
+            <div>
+
+            </div>
+
+            <div class="container py-5">
+                <div class="row proyecto-detalle">
+                    <div class="d-none d-md-block col-4 scroll-6">
+                        <div class="d-flex justify-content-end">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                                <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6"
+                                    stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1" />
+                                <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6"
+                                    stroke-linecap="round" stroke-miterlimit="10"
+                                    points="100.2,40.2 51.5,88.8 29.8,67.5 " />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="col-md-8 scroll-2">
+                        <h3 class="mb-3">Observaciones y recomendaciones del Equipo UX</h3>
+                        <p>Tras el análisis expuesto anteriormente, se concluyó que los puntos negativos durante la
+                            navegación del usuario en el sitio web, se relacionan principalmente con los tiempos de
+                            carga,
+                            errores de códigos del sitio y
+                            la información recibida sobre el servicio.</p>
+
+                        <div class="py-3 letra-resaltada">Una solución de poco esfuerzo y alto impacto: mejorar la
+                            velocidad
+                            de carga, optimizando principalmente las imágenes.</div>
+                        <!-- <p>Esto se extrajo del monitoreo realizado sobre la performance del sitio web mediante Google
+                        PageSpeed Insights.</p> -->
+                        <div class="py-3 letra-resaltada">Es solo una cotización: sin formularios extensos que llenar,
+                            una
+                            cotización clara y
+                            detallada son los puntos clave. </div>
+                        <p>En el caso de este formulario, el problema se presentó en no poder finalizar la operación
+                            desde
+                            el teléfono móvil por un error de códigos en el campo de validación de email. </p>
+                        <p> Por otro lado, se
+                            identificó la falta de mayor detalle en la información de la cotización enviada, lo que
+                            posiblemente lleve a que el usuario se comunique por otra vía con la empresa, o se decida
+                            por
+                            los
+                            servicios de otra empresa.</p>
+                    </div>
+                </div>
+            </div>
+
+            <a
+                href="https://www.canva.com/design/DAD1a8Xl4mQ/8pQiXQIHy0VPT7yIEt6kJw/view?utm_content=DAD1a8Xl4mQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
+                <h4 class="text-center py-3">> Mira la presentación AQUÍ</h4>
+            </a>
+
+    </section>
+
+    <!--SECCION CONTACTAR ////////////////////////////////////////////////////////////////////////-->
+    <section>
+        <div id="hablemos-proyectos" class="scroll-formulario">
+            <h3 class="text-center">¿Qué te pareció este proyecto? Dame tu feedback :)</h3>
+            <div class="button_cont2 scroll-botones" align="center"><a class="example_b"
+                    href="../portafolio2/index.html#hablemos" target="_self" rel="nofollow noopener">¡HABLEMOS!</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--BOTONES ////////////////////////////////////////////////////////////////////////-->
+
+    <section id="botones-proyectos" class="container">
+        <a href=""><i class="d-none fas fa-arrow-left fa-2x"></i></a>
+        <div class="volver-proyectos">
+            <a href="../portafolio2/index.html#proyectos"><i class="fas fa-th-large fa-2x"></i></a>
+            <a href="../portafolio2/index.html#proyectos">
+                <P>VOLVER A PROYECTOS</P>
+            </a>
+        </div>
+        <a href=""><i class=" d-none fas fa-arrow-right fa-2x"></i></a>
+    </section>
+
+
+
+    <!--FOOTER///////////////////////////////////////////////////////////////////////////////////-->
+    <div class="container">
+        <div class="lineas-footer row">
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="text-center">Sitio diseñado y construido por mi. Carolina
+            Fuentes © 2020</p>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" href="assets/js/navbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js"></script>
+    <script type="text/javascript">// efecto de navegacion
+        ScrollReveal().reveal(
+            '.scroll-1',
+            {
+                distance: '50px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1000
+            }
+        );
+        ScrollReveal().reveal(
+            '.scroll-2',
+            {
+                distance: '50px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1200
+            }
+        );
+        ScrollReveal().reveal(
+            '.scroll-3',
+            {
+                distance: '50px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1400
+            }
+        );
+        ScrollReveal().reveal(
+            '.scroll-4',
+            {
+                distance: '50px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1900
+            }
+        );
+        /////////////////////////////////////
+        ScrollReveal().reveal(
+            '.scroll-5',
+            {
+                distance: '160px',
+                origin: 'bottom',
+                interval: 16,
+                duration: 1200
+            }
+        );
+
+        ScrollReveal().reveal(
+            '.scroll-6',
+            {
+                distance: '160px',
+                interval: 16,
+                duration: 1200
+            }
+        );
+    </script>
+
+    <script type="text/javascript">
+        window.sr = ScrollReveal({ reset: true });
+        sr.reveal('.scroll-botones', { duration: 1800 });
+        sr.reveal('.scroll-botones', { distance: 200 });
+    </script>
+
+    <script type="text/javascript">
+        window.sr = ScrollReveal({ reset: true });
+        sr.reveal('.scroll-formulario', { duration: 1500 });
+        sr.reveal('.scroll-formulario', { distance: 200 });
+    </script>
+
+    <script type="text/javascript"> //Navbar lateral
+        function openFunction() {
+            document.getElementById("menu").style.width = "300px";
+            document.getElementById("mainbox").style.marginLeft = "300px";
+            document.getElementById("btn-menu").style.display = 'none';
+        }
+
+        function closeFunction() {
+            document.getElementById("menu").style.width = "0px";
+            document.getElementById("mainbox").style.marginLeft = "0px";
+            document.getElementById("btn-menu").style.display = 'inline';
+        }
+    </script>
+
+</body>
+
+</html>

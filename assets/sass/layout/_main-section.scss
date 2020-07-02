@@ -577,3 +577,17 @@ svg {
     }
   }
 }
+
+/////////////////////EYMI APP
+
+#header-eymi {
+  background-image: url(../img/proyectos/eymi-header.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-position: top;
+  background-attachment: fixed, scroll;
+
+  min-height: 500px;
+  height: 450px;
+  width: 100vw;
+}
