@@ -591,3 +591,26 @@ svg {
   height: 450px;
   width: 100vw;
 }
+
+.arquetipo-eymi {
+  width: 280px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .arquetipo-eymi{
+    width: 420px;
+    height: auto;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .arquetipo-eymi {
+    width: 500px;
+    height: auto;
+  }
+}
