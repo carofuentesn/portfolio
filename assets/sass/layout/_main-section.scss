@@ -614,3 +614,29 @@ svg {
     height: auto;
   }
 }
+
+.empatia-eymi {
+  width: 280px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 30%;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .empatia-eymi{
+    width: 420px;
+    height: auto;
+    padding-top: 0;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .empatia-eymi {
+    width: 550px;
+    height: auto;
+    padding-top: 0
+  }
+}
