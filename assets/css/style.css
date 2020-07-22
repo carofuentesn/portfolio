@@ -155,7 +155,11 @@ li, p, a {
 
 header {
   padding: 0;
-  height: 100vh; }
+  height: 100vh;
+  background-image: url(../img/foto-para-web.jpg);
+  background-size: 22rem auto;
+  background-position: right;
+  background-repeat: no-repeat; }
   header .header__textos {
     padding-top: 200px; }
     header .header__textos a {
@@ -173,7 +177,7 @@ header {
   margin: 20px 50% 0 50%; }
 #header .icon-down a {
   color: #000; }
-  #header .icon-down a :hover {
+  #header .icon-down a:hover {
     color: #000; }
 
 @media (min-width: 768px) {
@@ -181,7 +185,7 @@ header {
     margin: 490px 50% 0 50%; } }
 @media (min-width: 992px) {
   #header i {
-    margin: 430px 50% 0 50%; } }
+    margin: 24rem 50% 0 50%; } }
 .icon-down {
   position: relative;
   -webkit-animation: icon-down-animations 0.9s ease-in 0.9s infinite alternate;
@@ -432,10 +436,9 @@ header {
   padding: .5rem;
   border: solid 2px #777676;
   background-color: #fff;
-  border-radius: 13px; }
+  border-radius: 13px;
+  transition: transform .2s; }
   .cards-logros:hover {
-    transition: all 0.1s ease-in-out;
-    -webkit-transform: scale(1.2);
     transform: scale(1.2); }
 
 .seccion-proyectos {
@@ -680,6 +683,11 @@ svg {
     width: 550px;
     height: auto;
     padding-top: 0; } }
+.eymi-wireframe {
+  -webkit-box-shadow: 10px 10px 35px -13px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 10px 10px 35px -13px rgba(0, 0, 0, 0.65);
+  box-shadow: 10px 10px 35px -13px rgba(0, 0, 0, 0.65); }
+
 footer {
   width: 100%;
   height: 90px;

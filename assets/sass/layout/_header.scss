@@ -1,6 +1,10 @@
 header {
   padding: 0;
   height: 100vh;
+  background-image: url(../img/foto-para-web.jpg);
+  background-size: 22rem auto;
+  background-position: right;
+  background-repeat: no-repeat;
   
   .header__textos {
     padding-top: 200px;
@@ -30,7 +34,7 @@ header {
   }
   .icon-down a {
     color: $color-font1;
-    :hover {
+    &:hover {
       color: $color-font1;
     }
   }
@@ -44,7 +48,7 @@ header {
 
 @media (min-width: 992px) {
   #header i {
-    margin: 430px 50% 0 50%;
+    margin: 24rem 50% 0 50%;
   }
 }
 
