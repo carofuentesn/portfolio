@@ -81,10 +81,13 @@
   }
 }
 
+
+
 ////////////////////////////////////////////MOSAICOS
 .tabs__proyectos {
   padding-bottom: 180px;
 }
+
 #container-mosaico {
   min-width: 310px !important;
 }
@@ -252,7 +255,7 @@
     text-align: right;
     padding-top: 12%;
   }
-  .prueba-1{
+  .prueba-1 {
     position: absolute;
   }
 }
@@ -264,7 +267,7 @@
     width: 50px;
     height: auto;
   }
-  
+
   #sobremi__contenidos-izq {
     padding-top: 8%;
   }
@@ -290,19 +293,16 @@
 ////////////////////////////BORDES DE CARDS LOGROS
 
 .cards-logros {
-  padding:.5rem;
+  padding: 0.5rem;
   border: solid 2px #777676;
   background-color: $color-font2;
   border-radius: 13px;
-  transition: transform .2s;
-  
+  transition: transform 0.2s;
+
   &:hover {
     transform: scale(1.2);
-    
   }
 }
-
-
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PAGINA PROYECTOS
 .seccion-proyectos {
@@ -604,7 +604,7 @@ svg {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .arquetipo-eymi{
+  .arquetipo-eymi {
     width: 420px;
     height: auto;
   }
@@ -628,7 +628,7 @@ svg {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .empatia-eymi{
+  .empatia-eymi {
     width: 420px;
     height: auto;
     padding-top: 0;
@@ -640,14 +640,12 @@ svg {
   .empatia-eymi {
     width: 550px;
     height: auto;
-    padding-top: 0
+    padding-top: 0;
   }
 }
 
 .eymi-wireframe {
-  
-  -webkit-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.65);
--moz-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.65);
-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.65);
+  -webkit-box-shadow: 10px 10px 35px -13px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 10px 10px 35px -13px rgba(0, 0, 0, 0.65);
+  box-shadow: 10px 10px 35px -13px rgba(0, 0, 0, 0.65);
 }
-
