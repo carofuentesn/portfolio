@@ -649,3 +649,18 @@ svg {
   -moz-box-shadow: 10px 10px 35px -13px rgba(0, 0, 0, 0.65);
   box-shadow: 10px 10px 35px -13px rgba(0, 0, 0, 0.65);
 }
+
+
+/////////////CHILELOGISTICA
+
+#header-chilelogistica {
+  background-image: url(../img/proyectos/chilelogistica-header.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-position: top;
+  background-attachment: fixed, scroll;
+
+  min-height: 500px;
+  height: 450px;
+  width: 100vw;
+}
